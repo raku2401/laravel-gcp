@@ -3,7 +3,7 @@ pipeline {
     environment {
         IMAGE_REPO_NAME="jenkinsimage"
         IMAGE_TAG="latest"
-        REPOSITORY_URI = "us-central1-docker.pkg.dev/mythical-lens-410604"
+        REPOSITORY_URI = " gcr.io/mythical-lens-410604"
     }
    
     stages {
