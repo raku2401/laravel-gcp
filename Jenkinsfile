@@ -4,7 +4,6 @@ pipeline {
         IMAGE_REPO_NAME="jenkinsimage"
         IMAGE_TAG="latest"
         REPOSITORY_URI = "us-central1-docker.pkg.dev/mythical-lens-410604"
-        DOCKER_BUILDKIT = '0'
     }
    
     stages {
